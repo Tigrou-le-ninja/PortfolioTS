@@ -7,7 +7,7 @@ const Home = () => {
   return (
     <>
       <Banner />
-      <h1>Welcome to the Home Page blabla</h1>
+      <h1>Welcome to the Home Page biatch</h1>
       <Projects />
       <Contact />
       <Footer />
