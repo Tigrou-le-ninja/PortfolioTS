@@ -1,0 +1,26 @@
+.navbar {
+  margin: 0;
+  padding: 0;
+  width: 130px;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+  background-color: black;
+
+  .navlinks {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+  }
+}
+
+li a {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-decoration: none;
+}
