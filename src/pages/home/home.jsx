@@ -10,10 +10,12 @@ const Home = () => {
     <>
       <Navbar />
       <div className="content">
-        <h1>Welcome to the Home Page biatch</h1>
-        <Projects />
-        <Contact />
-        <Footer />
+        <main className="main-content">
+          <h1>Welcome to the Home Page biatch</h1>
+          <Projects />
+          <Contact />
+          <Footer />
+        </main>
       </div>
     </>
   );

@@ -9,7 +9,7 @@ import contactIcon from "../../assets/contact.svg";
 
 const Navbar = () => {
   return (
-    <div className="navbar">
+    <nav className="navbar">
       <ThemeSwitch />
       <ul className="navlinks">
         <li>
@@ -33,7 +33,7 @@ const Navbar = () => {
           </a>
         </li>
       </ul>
-    </div>
+    </nav>
   );
 };
 
