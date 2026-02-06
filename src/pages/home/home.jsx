@@ -2,8 +2,10 @@ import "./home.scss";
 
 import Navbar from "../../components/navbar/navbar";
 import Footer from "../../components/footer/footer";
-import Projects from "../../components/projects/projects";
+import Project from "../../components/project/project";
 import Contact from "../../components/contact/contact";
+
+import projects from "../../data/projects.json";
 
 const Home = () => {
   return (
@@ -12,7 +14,10 @@ const Home = () => {
       <div className="content">
         <main className="main-content">
           <h1>Welcome to the Home Page biatch</h1>
-          <Projects />
+          {/* Faire un map ici et appeler plusieurs fois le composant PROJECT AU SINGULIER pour n'afficher qu'un projet à la fois */}
+          {projects.map((project) => (
+            <Project key={project.id} project={project} />
+          ))}
           <Contact />
           <Footer />
         </main>
