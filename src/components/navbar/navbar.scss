@@ -3,9 +3,10 @@
   padding: 0;
   width: 130px;
   position: fixed;
+  top: 0;
   height: 100%;
   overflow: auto;
-  background-color: black;
+  background-color: var(--background-nav);
 
   .navlinks {
     list-style-type: none;

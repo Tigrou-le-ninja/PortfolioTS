@@ -1,6 +1,7 @@
 import "./home.scss";
 
 import Navbar from "../../components/navbar/navbar";
+import About from "../../components/about/about";
 import Footer from "../../components/footer/footer";
 import Project from "../../components/project/project";
 import Contact from "../../components/contact/contact";
@@ -13,7 +14,7 @@ const Home = () => {
       <Navbar />
       <div className="content">
         <main className="main-content">
-          <h1>Welcome to the Home Page biatch</h1>
+          <About />
           {/* Faire un map ici et appeler plusieurs fois le composant PROJECT AU SINGULIER pour n'afficher qu'un projet à la fois */}
           {projects.map((project) => (
             <Project key={project.id} project={project} />
