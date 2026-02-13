@@ -8,14 +8,24 @@
   overflow: auto;
   background-color: var(--background-nav);
   transition: all 1s ease;
+}
 
-  .navlinks {
-    list-style-type: none;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 0;
+.theme {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  &-icon {
+    color: var(--text-color);
   }
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0;
 }
 
 li a {
@@ -23,6 +33,6 @@ li a {
   text-align: center;
   justify-content: center;
   align-items: center;
-  color: white;
+  color: var(--text-color);
   text-decoration: none;
 }

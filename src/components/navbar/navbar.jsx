@@ -18,7 +18,11 @@ const Navbar = () => {
 
   return (
     <nav className="navbar">
-      <ThemeSwitch />
+      <div className="theme">
+        <FontAwesomeIcon icon="fa-regular fa-moon" className="theme-icon" />
+        <ThemeSwitch />
+        <FontAwesomeIcon icon="fa-regular fa-sun" className="theme-icon" />
+      </div>
       <ul className="navlinks">
         <li>
           <a href="#about">

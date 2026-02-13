@@ -17,12 +17,12 @@ const ThemeSwitch = () => {
   console.log("Current theme:", theme);
 
   return (
-    <div className="theme-switch">
+    <>
       <label className="toggle">
         <input type="checkbox" onChange={toggleTheme} checked={theme === "light"} />
         <span className="slider"></span>
       </label>
-    </div>
+    </>
   );
 };
 
