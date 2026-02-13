@@ -1,10 +1,13 @@
 import "./project.scss";
+import { useTranslation } from "react-i18next";
 
 const Project = ({ project }) => {
+  const { t } = useTranslation();
+
   return (
     <div className="projects">
       <h2>{project.title}</h2>
-      <p>{project.content}</p>
+      <p>{t(`projectsContent.${project.id}`)}</p>
     </div>
   );
 };

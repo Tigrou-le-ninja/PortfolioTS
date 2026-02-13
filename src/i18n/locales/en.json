@@ -4,5 +4,11 @@
     "skills": "Skills",
     "projects": "Projects",
     "contact": "Contact"
+  },
+  "projectsContent": {
+    "1": "Announcements posted on Kasa guarantee complete reliability. Photos match the accommodations, and all information is regularly verified by our teams.",
+    "2": "Kindness is one of Kasa's core values. Any discriminatory behavior or neighborhood disruption will result in exclusion from our platform.",
+    "3": "Our teams are at your disposal to provide you with a perfect experience. Do not hesitate to contact us if you have any questions.",
+    "4": "Safety is Kasa's priority. For both our hosts and travelers, each accommodation meets the safety criteria established by our services. By leaving a rating for both the host and guest, it allows our teams to verify that standards are being met. We also organize home safety workshops for our hosts."
   }
 }
