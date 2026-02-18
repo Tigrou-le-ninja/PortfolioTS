@@ -11,3 +11,16 @@
   background-color: var(--background-body);
   transition: all 1s ease;
 }
+
+.projects {
+  background-color: var(--background-block);
+  transition: all 1s ease;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  margin: 10px auto;
+  border-radius: 10px;
+  padding: 20px;
+}
