@@ -7,7 +7,11 @@
   },
   "about": {
     "welcome": "Bienvenue sur mon portfolio !",
-    "description": "Moi, c'est Théo ! Je suis un jeune développeur Web dont la formation touche à sa fin. "
+    "description": "Moi, c'est Théo ! Je suis un jeune développeur Web dont la formation touche à sa fin. J'aime les designs sobres et élégants et je commence à m'intéresser de près aux animations, aux transitions et aux propriétés CSS qui permettent à l'utilisateur d'avoir une expérience fluide et agréable à l'oeil. Je suis à la recherche d'une première expérience professionnelle, n'hésitez pas à me contacter !"
+  },
+  "skills": {
+    "languages": "Langages",
+    "frameworks": "Frameworks, librairies et outils"
   },
   "projectsContent": {
     "1": "Les annonces postées sur Kasa garantissent une fiabilité totale. Les photos sont conformes aux logements, et toutes les informations sont régulièrement vérifiées par nos équipes.",

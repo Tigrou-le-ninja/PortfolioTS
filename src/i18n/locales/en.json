@@ -7,7 +7,11 @@
   },
   "about": {
     "welcome": "Welcome to my portfolio!",
-    "description": "Hi, I'm Théo! I'm a young web developer whose course is coming to an end."
+    "description": "Hi, I'm Théo! I'm a young web developer whose course is coming to an end. I like sober, elegant designs and I'm starting to get really interested in animations, transitions and CSS properties that allow the user to have a smooth experience that pleases the eyes. I'm looking for my first professional experience, don't hesitate to reach out !"
+  },
+  "skills": {
+    "languages": "Languages",
+    "frameworks": "Frameworks, libraries and tools"
   },
   "projectsContent": {
     "1": "Announcements posted on Kasa guarantee complete reliability. Photos match the accommodations, and all information is regularly verified by our teams.",

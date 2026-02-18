@@ -5,6 +5,7 @@ import About from "../../components/about/about";
 import Footer from "../../components/footer/footer";
 import Project from "../../components/project/project";
 import Contact from "../../components/contact/contact";
+import Skills from "../../components/skills/skills";
 
 import projects from "../../data/projects.json";
 
@@ -14,6 +15,7 @@ const Home = () => {
       <Navbar />
       <main className="main-content">
         <About />
+        <Skills />
         <section className="projects">
           {projects.map((project) => (
             <Project key={project.id} project={project} />

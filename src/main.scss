@@ -4,6 +4,7 @@
   --background-block: oklch(from var(--background-body) calc(l * 1.2) c h);
   --background-sub-block: oklch(from var(--background-body) calc(l * 1.4) c h);
   --text-color: white;
+  transition: all 1s ease;
 }
 
 [data-theme="light"] {
