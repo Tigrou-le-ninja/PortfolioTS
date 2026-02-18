@@ -5,6 +5,10 @@
     "projects": "Projects",
     "contact": "Contact"
   },
+  "about": {
+    "welcome": "Welcome to my portfolio!",
+    "description": "Hi, I'm Théo! I'm a young web developer whose course is coming to an end."
+  },
   "projectsContent": {
     "1": "Announcements posted on Kasa guarantee complete reliability. Photos match the accommodations, and all information is regularly verified by our teams.",
     "2": "Kindness is one of Kasa's core values. Any discriminatory behavior or neighborhood disruption will result in exclusion from our platform.",

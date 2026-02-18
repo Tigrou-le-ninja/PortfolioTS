@@ -5,6 +5,10 @@
     "projects": "Projets",
     "contact": "Contact"
   },
+  "about": {
+    "welcome": "Bienvenue sur mon portfolio !",
+    "description": "Moi, c'est Théo ! Je suis un jeune développeur Web dont la formation touche à sa fin. "
+  },
   "projectsContent": {
     "1": "Les annonces postées sur Kasa garantissent une fiabilité totale. Les photos sont conformes aux logements, et toutes les informations sont régulièrement vérifiées par nos équipes.",
     "2": "La bienveillance fait partie des valeurs fondatrices de Kasa. Tout comportement discriminatoire ou de perturbation du voisinage entraînera une exclusion de notre plateforme.",

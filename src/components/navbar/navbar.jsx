@@ -26,22 +26,22 @@ const Navbar = () => {
       <ul className="navlinks">
         <li>
           <a href="#about">
-            <FontAwesomeIcon icon="fa-regular fa-circle-user" /> <span>{t("navbar.about")}</span>
+            <FontAwesomeIcon icon="fa-regular fa-circle-user" className="nav-icon" /> <span>{t("navbar.about")}</span>
           </a>
         </li>
         <li>
           <a href="#skills">
-            <FontAwesomeIcon icon="fa-solid fa-gears" /> <span>{t("navbar.skills")}</span>
+            <FontAwesomeIcon icon="fa-solid fa-gears" className="nav-icon" /> <span>{t("navbar.skills")}</span>
           </a>
         </li>
         <li>
           <a href="#projects">
-            <FontAwesomeIcon icon="fa-solid fa-list-check" /> <span>{t("navbar.projects")}</span>
+            <FontAwesomeIcon icon="fa-solid fa-list-check" className="nav-icon" /> <span>{t("navbar.projects")}</span>
           </a>
         </li>
         <li>
           <a href="#contact">
-            <FontAwesomeIcon icon="fa-regular fa-envelope" /> <span>{t("navbar.contact")}</span>
+            <FontAwesomeIcon icon="fa-regular fa-envelope" className="nav-icon" /> <span>{t("navbar.contact")}</span>
           </a>
         </li>
       </ul>

@@ -5,7 +5,7 @@ const Project = ({ project }) => {
   const { t } = useTranslation();
 
   return (
-    <div className="projects">
+    <div className="project">
       <h2>{project.title}</h2>
       <p>{t(`projectsContent.${project.id}`)}</p>
     </div>

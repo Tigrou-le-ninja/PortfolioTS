@@ -12,17 +12,16 @@ const Home = () => {
   return (
     <>
       <Navbar />
-      <div className="content">
-        <main className="main-content">
-          <About />
-          {/* Faire un map ici et appeler plusieurs fois le composant PROJECT AU SINGULIER pour n'afficher qu'un projet à la fois */}
+      <main className="main-content">
+        <About />
+        <section className="projects">
           {projects.map((project) => (
             <Project key={project.id} project={project} />
           ))}
-          <Contact />
-          <Footer />
-        </main>
-      </div>
+        </section>
+        <Contact />
+        <Footer />
+      </main>
     </>
   );
 };

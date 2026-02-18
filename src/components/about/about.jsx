@@ -1,11 +1,17 @@
 import "./about.scss";
+import Theo from "../../assets/Theo.webp";
+
+import { useTranslation } from "react-i18next";
 
 const About = () => {
+  const { t } = useTranslation();
   return (
     <div className="about">
-      {/* Ajouter une image de profil ici */}
-      <h1>About Me</h1>
-      <p>Petit paragraphe de présentation</p>
+      <img src={Theo} alt="Photo de Théo Sommacal" />
+      <div className="about-text">
+        <h1>{t("about.welcome")}</h1>
+        <p>{t("about.description")}</p>
+      </div>
     </div>
   );
 };
