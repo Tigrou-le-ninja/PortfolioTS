@@ -2,7 +2,9 @@
   {
     "id": 1,
     "title": "Booki",
-    "pictures": ["src/assets/booki/1.PNG", "src/assets/booki/2.PNG", "src/assets/booki/3.PNG"]
+    "pictures": ["src/assets/booki/1.PNG", "src/assets/booki/2.PNG", "src/assets/booki/3.PNG"],
+    "repo": "",
+    "site": ""
   },
   {
     "id": 2,
