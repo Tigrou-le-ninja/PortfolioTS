@@ -1,18 +1,19 @@
 [
   {
     "id": 1,
-    "title": "Fiabilité"
+    "title": "Booki",
+    "pictures": ["src/assets/booki/1.PNG", "src/assets/booki/2.PNG", "src/assets/booki/3.PNG"]
   },
   {
     "id": 2,
-    "title": "Respect"
+    "title": "Nina Carducci"
   },
   {
     "id": 3,
-    "title": "Service"
+    "title": "Kasa"
   },
   {
     "id": 4,
-    "title": "Sécurité"
+    "title": "Mon Vieux Grimoire"
   }
 ]
