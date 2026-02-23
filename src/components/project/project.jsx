@@ -4,13 +4,10 @@ import Carousel from "../carousel/carousel";
 
 const Project = ({ project }) => {
   const { t } = useTranslation();
-  const Test = import.meta.env.VITE_test;
 
   return (
     <div className="project">
-      <h2>
-        {project.title} + {Test}
-      </h2>
+      <h2>{project.title}</h2>
       {/* <Carousel pictures={project.pictures} /> */}
       <p>{t(`projectsContent.${project.id}`)}</p>
     </div>

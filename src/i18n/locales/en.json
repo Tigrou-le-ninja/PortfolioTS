@@ -14,9 +14,9 @@
     "frameworks": "Frameworks, libraries and tools"
   },
   "projectsContent": {
-    "1": "Announcements posted on Kasa guarantee complete reliability. Photos match the accommodations, and all information is regularly verified by our teams.",
-    "2": "Kindness is one of Kasa's core values. Any discriminatory behavior or neighborhood disruption will result in exclusion from our platform.",
-    "3": "Our teams are at your disposal to provide you with a perfect experience. Do not hesitate to contact us if you have any questions.",
-    "4": "Safety is Kasa's priority. For both our hosts and travelers, each accommodation meets the safety criteria established by our services. By leaving a rating for both the host and guest, it allows our teams to verify that standards are being met. We also organize home safety workshops for our hosts."
+    "1": "Booki is a fictional travel agency. As part of the first project of my course, I coded its homepage in HTML & CSS using a Figma mockup and a starter codebase that were provided. This allowed me to acquire the fundamentals of both languages and also introduced me to responsive design.",
+    "2": "Nina Carducci is a fictional photographer. Her website had several issues that needed fixing : her photo gallery was not functioning properly, and the site’s metrics (measured using Google’s Lighthouse diagnostic tool) were not satisfactory, particularly in terms of performance, accessibility, and SEO. After working on the code and optimizing some of the files used, the metrics reached optimal values.",
+    "3": "Kasa is a fictional peer-to-peer apartment rental company. The CTO wanted the website to feel more modern, so she commissioned a complete overhaul of the service. Goodbye ASP.NET, hello React! That’s where I came in: using detailed Figma mockups, I built the entire front-end of the site with React and React Router. Kasa is therefore a Single-Page Application, where users can navigate from one property to another, view their details, and also learn about Kasa’s commitments.",
+    "4": "Mon Vieux Grimoire is a fictional bookstore chain. They wanted to launch a book listing and rating website and had already hired a front-end developer. Using the information provided by that developer, my role was to set up an API as well as the entire back end of the site. Users can create an account and log in, add/edit/delete one or more books, rate them, and rate other books as well. I also implemented security measures to ensure that ratings are unique and that only the user who created a new entry can modify or delete it."
   }
 }
