@@ -2,7 +2,7 @@
   {
     "id": 1,
     "title": "Booki",
-    "pictures": ["public/assets/booki/1.PNG", "public/assets/booki/2.PNG", "public/assets/booki/3.PNG"],
+    "pictures": ["public/assets/booki/1.WEBP", "public/assets/booki/2.WEBP", "public/assets/booki/3.WEBP"],
     "repo": "https://github.com/Tigrou-le-ninja/BookiTS",
     "site": "https://tigrou-le-ninja.github.io/BookiTS/"
   },
@@ -10,12 +10,12 @@
     "id": 2,
     "title": "Nina Carducci",
     "pictures": [
-      "public/assets/carducci/1.PNG",
-      "public/assets/carducci/2.PNG",
-      "public/assets/carducci/3.PNG",
-      "public/assets/carducci/4.PNG",
-      "public/assets/carducci/5.PNG",
-      "public/assets/carducci/6.PNG"
+      "public/assets/carducci/1.WEBP",
+      "public/assets/carducci/2.WEBP",
+      "public/assets/carducci/3.WEBP",
+      "public/assets/carducci/4.WEBP",
+      "public/assets/carducci/5.WEBP",
+      "public/assets/carducci/6.WEBP"
     ],
     "repo": "https://github.com/Tigrou-le-ninja/CarducciTS",
     "site": "https://tigrou-le-ninja.github.io/CarducciTS/"
@@ -24,10 +24,10 @@
     "id": 3,
     "title": "Kasa",
     "pictures": [
-      "public/assets/kasa/1.PNG",
-      "public/assets/kasa/2.PNG",
-      "public/assets/kasa/3.PNG",
-      "public/assets/kasa/4.PNG"
+      "public/assets/kasa/1.WEBP",
+      "public/assets/kasa/2.WEBP",
+      "public/assets/kasa/3.WEBP",
+      "public/assets/kasa/4.WEBP"
     ],
     "repo": "https://github.com/Tigrou-le-ninja/KasaTS",
     "site": ""
@@ -36,11 +36,11 @@
     "id": 4,
     "title": "Mon Vieux Grimoire",
     "pictures": [
-      "public/assets/grimoire/1.PNG",
-      "public/assets/grimoire/2.PNG",
-      "public/assets/grimoire/3.PNG",
-      "public/assets/grimoire/4.PNG",
-      "public/assets/grimoire/5.PNG"
+      "public/assets/grimoire/1.WEBP",
+      "public/assets/grimoire/2.WEBP",
+      "public/assets/grimoire/3.WEBP",
+      "public/assets/grimoire/4.WEBP",
+      "public/assets/grimoire/5.WEBP"
     ],
     "repo": "https://github.com/Tigrou-le-ninja/GrimoireTS",
     "site": ""
