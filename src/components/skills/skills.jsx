@@ -6,7 +6,7 @@ import { useTranslation } from "react-i18next";
 const Skills = () => {
   const { t } = useTranslation();
   return (
-    <div className="skills">
+    <div className="skills" id="skills">
       <div className="languages">
         <h2>{t("skills.languages")}</h2>
         <div className="logos">

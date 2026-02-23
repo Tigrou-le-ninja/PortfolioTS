@@ -16,7 +16,7 @@ const Home = () => {
       <main className="main-content">
         <About />
         <Skills />
-        <section className="projects">
+        <section className="projects" id="projects">
           {projects.map((project) => (
             <Project key={project.id} project={project} />
           ))}

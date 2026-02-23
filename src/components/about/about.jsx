@@ -6,7 +6,7 @@ import { useTranslation } from "react-i18next";
 const About = () => {
   const { t } = useTranslation();
   return (
-    <div className="about">
+    <div className="about" id="about">
       <img src={Theo} alt="Photo de Théo Sommacal" />
       <div className="about-text">
         <h1>{t("about.welcome")}</h1>
