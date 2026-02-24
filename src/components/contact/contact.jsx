@@ -1,5 +1,8 @@
 import { useRef } from "react";
 import emailjs from "@emailjs/browser";
+import { useTranslation } from "react-i18next";
+
+import "./contact.scss";
 
 const Contact = () => {
   const form = useRef();
@@ -19,12 +22,14 @@ const Contact = () => {
     }
   };
 
+  const { t } = useTranslation();
+
   return (
     <form ref={form} onSubmit={sendEmail}>
-      <input type="text" name="name" placeholder="Votre nom" required />
-      <input type="email" name="email" placeholder="Votre email" required />
-      <textarea name="message" placeholder="Votre message" required />
-      <button type="submit">Envoyer</button>
+      <input type="text" name="name" placeholder={t("contact.name")} required />
+      <input type="email" name="email" placeholder={t("contact.email")} required />
+      <textarea name="message" placeholder={t("contact.message")} required />
+      <button type="submit">{t("contact.send")}</button>
     </form>
   );
 };

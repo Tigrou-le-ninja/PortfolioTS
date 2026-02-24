@@ -18,5 +18,13 @@
     "2": "Nina Carducci est une photographe fictive. Son site Web présentait plusieurs problèmes qu'il m'a fallu résoudre : sa galerie de photos était dysfonctionnelle et les métriques du site (mesurées avec l'outil diagnostic Lighthouse de Google) n'étaient pas satisfaisantes (en particulier les performances, l'accessibilité et le SEO). Après mon travail sur le code et quelques optimisations des fichiers utilisés, les métriques ont atteint des valeurs optimales.",
     "3": "Kasa est une entreprise fictive de location d'appartements entre particuliers. LA CTO souhaitant que son site soit plus moderne, elle commande une refonte totale du service. Adieu ASP.NET et bonjour React! C'est là que j'interviens : à l'aide de maquettes Figma détaillées, je dois construire tout le front-end du site avec React et React Router. Kasa est donc une Single-Page Application, où l'utilisateur peut naviguer d'un logement à un autre, consulter les informations de ces derniers mais aussi les promesses de Kasa.",
     "4": "Mon Vieux Grimoire est une chaîne de librairies fictive. Ils souhaitent ouvrir un site de référencement et de notations de livres et ont déjà fait appel à un développeur front-end. Avec les informations transmises par cette personne, mon rôle a été de mettre en place une API ainsi que tout le back-end du site. Les utilisateurs peuvent créer un compte et s'y connecter, ajouter/modifier/supprimer un ou plusieurs livres et le(s) noter, noter d'autres livres... J'ai également mis en place des sécurités pour que les notes soient uniques, et que seul l'utilisateur responsable d'une nouvelle entrée puisse la modifier ou la supprimer."
+  },
+  "contact": {
+    "title": "Contact",
+    "description": "N'hésitez pas à me contacter !",
+    "name": "Votre nom",
+    "email": "Votre email",
+    "message": "Votre message",
+    "send": "Envoyer"
   }
 }
