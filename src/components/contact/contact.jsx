@@ -1,20 +1,31 @@
+import { useRef } from "react";
+import emailjs from "@emailjs/browser";
+
 const Contact = () => {
+  const form = useRef();
+
+  const sendEmail = async (e) => {
+    e.preventDefault();
+    try {
+      await emailjs.sendForm(
+        import.meta.env.VITE_EMAIL_SERVICE_ID,
+        import.meta.env.VITE_EMAIL_TEMPLATE_ID,
+        form.current,
+        import.meta.env.VITE_EMAIL_PUBLIC_KEY,
+      );
+      alert("Message envoyé !");
+    } catch (error) {
+      alert("Erreur lors de l'envoi.");
+    }
+  };
+
   return (
-    <div className="contact" id="contact">
-      <h2>Contact Me</h2>
-      <form>
-        <label htmlFor="name">Name:</label>
-        <input type="text" id="name" name="name" required />
-
-        <label htmlFor="email">Email:</label>
-        <input type="email" id="email" name="email" required />
-
-        <label htmlFor="message">Message:</label>
-        <textarea id="message" name="message" required></textarea>
-
-        <button type="submit">Send</button>
-      </form>
-    </div>
+    <form ref={form} onSubmit={sendEmail}>
+      <input type="text" name="name" placeholder="Votre nom" required />
+      <input type="email" name="email" placeholder="Votre email" required />
+      <textarea name="message" placeholder="Votre message" required />
+      <button type="submit">Envoyer</button>
+    </form>
   );
 };
 
