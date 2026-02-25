@@ -21,10 +21,11 @@
   },
   "contact": {
     "title": "Contact",
-    "description": "N'hésitez pas à me contacter !",
+    "description": "Vous avez des questions, un projet, envie d'en savoir plus ? N'hésitez pas à me contacter !",
     "name": "Votre nom",
     "email": "Votre email",
     "message": "Votre message",
     "send": "Envoyer"
-  }
+  },
+  "footer": "© 2026 Portfolio - Théo Sommacal. Tous droits réservés."
 }

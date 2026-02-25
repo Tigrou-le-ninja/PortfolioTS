@@ -1,7 +1,12 @@
+import "./footer.scss";
+import { useTranslation } from "react-i18next";
+
 const Footer = () => {
+  const { t } = useTranslation();
+
   return (
     <footer>
-      <p>© 2026 My Portfolio. All rights reserved.</p>
+      <p>{t("footer")}</p>
     </footer>
   );
 };

@@ -25,12 +25,16 @@ const Contact = () => {
   const { t } = useTranslation();
 
   return (
-    <form ref={form} onSubmit={sendEmail}>
-      <input type="text" name="name" placeholder={t("contact.name")} required />
-      <input type="email" name="email" placeholder={t("contact.email")} required />
-      <textarea name="message" placeholder={t("contact.message")} required />
-      <button type="submit">{t("contact.send")}</button>
-    </form>
+    <div className="contact">
+      <h2>{t("contact.title")}</h2>
+      <p>{t("contact.description")}</p>
+      <form ref={form} onSubmit={sendEmail}>
+        <input type="text" name="name" placeholder={t("contact.name")} required />
+        <input type="email" name="email" placeholder={t("contact.email")} required />
+        <textarea name="message" placeholder={t("contact.message")} required />
+        <button type="submit">{t("contact.send")}</button>
+      </form>
+    </div>
   );
 };
 

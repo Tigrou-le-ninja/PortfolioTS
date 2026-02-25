@@ -21,10 +21,11 @@
   },
   "contact": {
     "title": "Contact",
-    "description": "Don't hesitate to reach out!",
+    "description": "You have questions, a project, or want to know more? Don't hesitate to reach out!",
     "name": "Your name",
     "email": "Your email",
     "message": "Your message",
     "send": "Send"
-  }
+  },
+  "footer": "© 2026 Portfolio - Théo Sommacal. All rights reserved."
 }
