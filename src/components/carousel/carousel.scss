@@ -10,16 +10,24 @@
   border-radius: 25px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
 
-  /* @media (max-width: $breakpoint-mobile) {
-    height: 255px;
-    border-radius: 10px;
-  } */
-
   &-image {
     width: 100%;
     height: 100%;
     object-fit: contain;
     transition: opacity 0.5s ease-in-out;
+
+    &-button {
+      display: block;
+      width: 100%;
+      height: 100%;
+      padding: 0;
+      border: none;
+      background: transparent;
+
+      img {
+        cursor: zoom-in;
+      }
+    }
   }
 
   &-btn {
@@ -42,26 +50,12 @@
       object-fit: contain;
     }
 
-    /* & img {
-      @media (max-width: $breakpoint-mobile) {
-        height: 20px;
-      }
-    } */
-
     &--prev {
       left: 15px;
-
-      /* @media (max-width: $breakpoint-mobile) {
-        left: 5px;
-      } */
     }
 
     &--next {
       right: 15px;
-
-      /* @media (max-width: $breakpoint-mobile) {
-        right: 5px;
-      } */
     }
   }
 
@@ -76,9 +70,9 @@
     padding: 0.3rem 0.8rem;
     border-radius: 8px;
 
-    /* @media (max-width: $breakpoint-mobile) {
+    @media (max-width: var(--breakpoint-mobile)) {
       display: none;
-    } */
+    }
   }
 
   &-empty {
@@ -88,7 +82,6 @@
   }
 }
 
-/* Modal */
 .carousel-modal {
   position: fixed;
   inset: 0;
@@ -97,50 +90,36 @@
   align-items: center;
   justify-content: center;
   z-index: 9999;
-}
 
-.carousel-modal-content {
-  position: relative;
-  max-width: 95%;
-  max-height: 95%;
-}
-
-.carousel-modal-image {
-  display: block;
-  max-width: 100%;
-  max-height: 100%;
-  object-fit: contain;
-  border-radius: 8px;
-}
-
-.carousel-modal-close {
-  position: absolute;
-  top: -10px;
-  right: -10px;
-  background: #fff;
-  border: none;
-  width: 36px;
-  height: 36px;
-  border-radius: 50%;
-  font-size: 20px;
-  line-height: 1;
-  cursor: pointer;
-  border: 1px solid #333;
-
-  &-icon {
-    color: #333;
+  &-content {
+    position: relative;
+    max-width: 95%;
+    max-height: 95%;
   }
-}
 
-.carousel-image-button {
-  display: block;
-  width: 100%;
-  height: 100%;
-  padding: 0;
-  border: none;
-  background: transparent;
-}
+  &-image {
+    display: block;
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+    border-radius: 8px;
+  }
 
-.carousel-image-button img {
-  cursor: zoom-in;
+  &-close {
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    background: #fff;
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    font-size: 20px;
+    line-height: 1;
+    cursor: pointer;
+    border: 1px solid #333;
+
+    &-icon {
+      color: #333;
+    }
+  }
 }

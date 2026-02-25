@@ -15,16 +15,29 @@ const Project = ({ project }) => {
 
   return (
     <div className="project">
-      <h2>{project.title}</h2>
+      <h3>{project.title}</h3>
       <Carousel pictures={project.pictures} />
       <p>{t(`projectsContent.${project.id}`)}</p>
       <div className="links">
-        <a href={project.repo} target="_blank" rel="noopener noreferrer">
-          <FontAwesomeIcon icon="fa-brands fa-github" className="link-icon" />
+        <h3>{t("projectsContent.links")}</h3>
+        <a
+          href={project.repo}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="link-github"
+          data-tooltip={t("projectsContent.tooltipRepo")}
+        >
+          <FontAwesomeIcon icon="fa-brands fa-github" className="link-repo" />
         </a>
         {project.site && (
-          <a href={project.site} target="_blank" rel="noopener noreferrer">
-            <FontAwesomeIcon icon="fa-solid fa-globe" className="link-icon" />
+          <a
+            href={project.site}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="link-website"
+            data-tooltip={t("projectsContent.tooltipSite")}
+          >
+            <FontAwesomeIcon icon="fa-solid fa-globe" className="link-site" />
           </a>
         )}
       </div>

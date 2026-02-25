@@ -14,6 +14,10 @@
     "frameworks": "Frameworks, librairies et outils"
   },
   "projectsContent": {
+    "title": "Projets",
+    "links": "Liens",
+    "tooltipRepo": "Dépôt GitHub",
+    "tooltipSite": "Site Web",
     "1": "Booki est une agence de voyage fictive. Dans le cadre du premier projet de ma formation, j'ai codé sa page d'accueil en HTML & CSS à l'aide d'une maquette Figma et d'une base de code qui m'ont été fournies. Cela m'a permis d'acquérir les bases de ces deux langages et m'a également initié au responsive design.",
     "2": "Nina Carducci est une photographe fictive. Son site Web présentait plusieurs problèmes qu'il m'a fallu résoudre : sa galerie de photos était dysfonctionnelle et les métriques du site (mesurées avec l'outil diagnostic Lighthouse de Google) n'étaient pas satisfaisantes (en particulier les performances, l'accessibilité et le SEO). Après mon travail sur le code et quelques optimisations des fichiers utilisés, les métriques ont atteint des valeurs optimales.",
     "3": "Kasa est une entreprise fictive de location d'appartements entre particuliers. LA CTO souhaitant que son site soit plus moderne, elle commande une refonte totale du service. Adieu ASP.NET et bonjour React! C'est là que j'interviens : à l'aide de maquettes Figma détaillées, je dois construire tout le front-end du site avec React et React Router. Kasa est donc une Single-Page Application, où l'utilisateur peut naviguer d'un logement à un autre, consulter les informations de ces derniers mais aussi les promesses de Kasa.",
