@@ -2,7 +2,7 @@
   {
     "id": 1,
     "title": "Booki",
-    "pictures": ["/assets/booki/1.webp", "/assets/booki/2.WEBP", "/assets/booki/3.WEBP"],
+    "pictures": ["assets/booki/1.webp", "assets/booki/2.webp", "assets/booki/3.webp"],
     "repo": "https://github.com/Tigrou-le-ninja/BookiTS",
     "site": "https://tigrou-le-ninja.github.io/BookiTS/"
   },
@@ -10,12 +10,12 @@
     "id": 2,
     "title": "Nina Carducci",
     "pictures": [
-      "/assets/carducci/1.WEBP",
-      "/assets/carducci/2.WEBP",
-      "/assets/carducci/3.WEBP",
-      "/assets/carducci/4.WEBP",
-      "/assets/carducci/5.WEBP",
-      "/assets/carducci/6.WEBP"
+      "assets/carducci/1.webp",
+      "assets/carducci/2.webp",
+      "assets/carducci/3.webp",
+      "assets/carducci/4.webp",
+      "assets/carducci/5.webp",
+      "assets/carducci/6.webp"
     ],
     "repo": "https://github.com/Tigrou-le-ninja/CarducciTS",
     "site": "https://tigrou-le-ninja.github.io/CarducciTS/"
@@ -23,7 +23,7 @@
   {
     "id": 3,
     "title": "Kasa",
-    "pictures": ["/assets/kasa/1.WEBP", "/assets/kasa/2.WEBP", "/assets/kasa/3.WEBP", "/assets/kasa/4.WEBP"],
+    "pictures": ["assets/kasa/1.webp", "assets/kasa/2.webp", "assets/kasa/3.webp", "assets/kasa/4.webp"],
     "repo": "https://github.com/Tigrou-le-ninja/KasaTS",
     "site": ""
   },
@@ -31,11 +31,11 @@
     "id": 4,
     "title": "Mon Vieux Grimoire",
     "pictures": [
-      "/assets/grimoire/1.WEBP",
-      "/assets/grimoire/2.WEBP",
-      "/assets/grimoire/3.WEBP",
-      "/assets/grimoire/4.WEBP",
-      "/assets/grimoire/5.WEBP"
+      "assets/grimoire/1.webp",
+      "assets/grimoire/2.webp",
+      "assets/grimoire/3.webp",
+      "assets/grimoire/4.webp",
+      "assets/grimoire/5.webp"
     ],
     "repo": "https://github.com/Tigrou-le-ninja/GrimoireTS",
     "site": ""
