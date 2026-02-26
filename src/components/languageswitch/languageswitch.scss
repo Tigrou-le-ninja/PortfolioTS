@@ -1,5 +1,5 @@
 .language-switch {
-  @media (max-width: 320px) {
+  @media (max-width: 480px) {
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -13,7 +13,7 @@
     height: clamp(15px, 1vw, 30px);
     font-size: 100%;
 
-    @media (max-width: 320px) {
+    @media (max-width: 480px) {
       width: 8vw;
       height: 4vh;
     }
@@ -23,7 +23,7 @@
     border-radius: 5px 0 0 5px;
     transition: all 1s ease;
 
-    @media (max-width: 320px) {
+    @media (max-width: 480px) {
       border-radius: 5px 5px 0 0;
     }
 
@@ -37,7 +37,7 @@
     border-radius: 0 5px 5px 0;
     transition: all 1s ease;
 
-    @media (max-width: 320px) {
+    @media (max-width: 480px) {
       border-radius: 0 0 5px 5px;
     }
 

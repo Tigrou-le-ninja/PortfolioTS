@@ -10,7 +10,7 @@
   border-radius: 25px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
 
-  @media (max-width: 320px) {
+  @media (max-width: 480px) {
     border-radius: 10px;
   }
 
@@ -57,7 +57,7 @@
     &--prev {
       left: 15px;
 
-      @media (max-width: 320px) {
+      @media (max-width: 480px) {
         left: 5px;
       }
     }
@@ -65,7 +65,7 @@
     &--next {
       right: 15px;
 
-      @media (max-width: 320px) {
+      @media (max-width: 480px) {
         right: 5px;
       }
     }
@@ -87,7 +87,7 @@
     padding: 5px;
     border-radius: 5px;
 
-    @media (max-width: 320px) {
+    @media (max-width: 480px) {
       display: none;
     }
   }
