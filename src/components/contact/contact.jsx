@@ -29,9 +29,9 @@ const Contact = () => {
       <h2>{t("contact.title")}</h2>
       <p>{t("contact.description")}</p>
       <form ref={form} onSubmit={sendEmail}>
-        <input type="text" name="name" placeholder={t("contact.name")} required />
-        <input type="email" name="email" placeholder={t("contact.email")} required />
-        <textarea name="message" placeholder={t("contact.message")} required />
+        <input type="text" name="name" placeholder={t("contact.name")} required title="name" />
+        <input type="email" name="email" placeholder={t("contact.email")} required title="email" />
+        <textarea name="message" placeholder={t("contact.message")} required title="message" />
         <button type="submit">{t("contact.send")}</button>
       </form>
     </div>

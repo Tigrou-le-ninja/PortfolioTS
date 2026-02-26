@@ -25,7 +25,7 @@ const ThemeSwitch = () => {
   return (
     <>
       {/* Version PC : toggle */}
-      <label className="toggle">
+      <label className="toggle" name="toggle-theme" aria-label="Toggle theme">
         <input type="checkbox" onChange={toggleTheme} checked={theme === "light"} />
         <span className="slider"></span>
       </label>

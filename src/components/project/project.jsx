@@ -26,6 +26,7 @@ const Project = ({ project }) => {
           rel="noopener noreferrer"
           className="link-github"
           data-tooltip={t("projectsContent.tooltipRepo")}
+          name="GitHub"
         >
           <FontAwesomeIcon icon="fa-brands fa-github" className="link-repo" />
         </a>
@@ -36,6 +37,7 @@ const Project = ({ project }) => {
             rel="noopener noreferrer"
             className="link-website"
             data-tooltip={t("projectsContent.tooltipSite")}
+            name="Site"
           >
             <FontAwesomeIcon icon="fa-solid fa-globe" className="link-site" />
           </a>
