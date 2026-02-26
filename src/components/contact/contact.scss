@@ -10,19 +10,41 @@
   border-radius: 10px;
   padding: 20px;
 
+  h2 {
+    color: white;
+    margin-bottom: 20px;
+    font-size: clamp(20px, calc(1.5vh + 0.5rem), 30px);
+    text-decoration: underline;
+  }
+
+  p {
+    font-size: clamp(16px, calc(1vh + 0.5rem), 25px);
+    line-height: 1.5;
+  }
+
   button {
-    height: 2.5vh;
-    width: 2.5vw;
+    height: clamp(25px, 2.5vh, 35px);
+    width: clamp(50px, 2.5vw, 70px);
     background-color: var(--background-nav);
     color: var(--text-color);
     border-radius: 5px;
     align-self: center;
+    border: 1px solid var(--text-color);
+    transition: all 1s ease;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
   form {
     display: flex;
     flex-direction: column;
     width: 50%;
+
+    @media (max-width: 320px) {
+      width: 80%;
+    }
 
     input,
     textarea {
@@ -33,19 +55,22 @@
       transition:
         box-shadow 1s ease,
         outline 1s ease;
+      font-family: inherit;
+
+      &::placeholder {
+        font-family: inherit;
+      }
 
       &:focus {
         outline: none;
         box-shadow: none;
       }
 
-      /* Remove focus ring for mouse users but keep visible for keyboard users */
       &:focus:not(:focus-visible) {
         outline: none;
         box-shadow: none;
       }
 
-      /* Visible focus for keyboard navigation */
       &:focus-visible {
         outline: 2px solid var(--text-color);
         outline-offset: 2px;

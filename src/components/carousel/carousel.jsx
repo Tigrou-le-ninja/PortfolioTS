@@ -7,8 +7,6 @@ import { fab } from "@fortawesome/free-brands-svg-icons";
 library.add(fas, far, fab);
 
 import { useState, useEffect } from "react";
-import RightArrow from "../../assets/right.png";
-import LeftArrow from "../../assets/left.png";
 
 import "./carousel.scss";
 
@@ -71,11 +69,11 @@ const Carousel = ({ pictures }) => {
       {total > 1 && (
         <>
           <button onClick={goPrev} aria-label="Image précédente" className="carousel-btn carousel-btn--prev">
-            <img src={LeftArrow} alt="Image précédente" />
+            <FontAwesomeIcon icon="fa-solid fa-chevron-left" className="chevron chevron-left" />
           </button>
 
           <button onClick={goNext} aria-label="Image suivante" className="carousel-btn carousel-btn--next">
-            <img src={RightArrow} alt="Image suivante" />
+            <FontAwesomeIcon icon="fa-solid fa-chevron-right" className="chevron chevron-right" />
           </button>
         </>
       )}

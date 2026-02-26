@@ -8,4 +8,10 @@ footer {
   width: 100%;
   margin: auto;
   padding: 20px;
+
+  p {
+    color: var(--text-color);
+    font-size: clamp(12px, 1.5vw, 16px);
+    margin: 5px;
+  }
 }

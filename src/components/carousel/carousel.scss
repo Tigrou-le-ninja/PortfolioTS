@@ -10,6 +10,10 @@
   border-radius: 25px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
 
+  @media (max-width: 320px) {
+    border-radius: 10px;
+  }
+
   &-image {
     width: 100%;
     height: 100%;
@@ -32,30 +36,38 @@
 
   &-btn {
     position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    font-size: 96px;
-    padding: 0;
+    padding: 5px;
     cursor: pointer;
-    transition: background-color 0.3s ease;
     z-index: 10;
     border: none;
-    background-color: transparent;
+    background-color: gray;
     display: flex;
     align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    width: clamp(15px, 2vw, 60px);
+    height: clamp(15px, 2vw, 60px);
 
-    img {
-      width: 100%;
-      height: 100%;
-      object-fit: contain;
+    svg {
+      width: 90%;
+      height: 90%;
+      color: white;
     }
 
     &--prev {
       left: 15px;
+
+      @media (max-width: 320px) {
+        left: 5px;
+      }
     }
 
     &--next {
       right: 15px;
+
+      @media (max-width: 320px) {
+        right: 5px;
+      }
     }
   }
 
@@ -70,7 +82,7 @@
     padding: 0.3rem 0.8rem;
     border-radius: 8px;
 
-    @media (max-width: var(--breakpoint-mobile)) {
+    @media (max-width: 320px) {
       display: none;
     }
   }
