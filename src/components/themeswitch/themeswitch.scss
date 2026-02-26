@@ -1,9 +1,41 @@
 .toggle {
   display: block;
   position: relative;
-  width: 90px;
-  height: 44px;
-  margin: 0 10px;
+  width: 3vw;
+  height: 1.5vw;
+  margin: 0 5px;
+
+  @media (max-width: 320px) {
+    display: none;
+  }
+
+  &-mobile {
+    display: none;
+    margin-bottom: 50px;
+
+    button {
+      background-color: var(--background-nav);
+      color: var(--text-color);
+      border: 1px solid var(--text-color);
+      width: 8vw;
+      height: 8vw;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      svg {
+        width: 90%;
+        height: 90%;
+      }
+    }
+
+    @media (max-width: 320px) {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  }
 
   & input {
     opacity: 0;
@@ -15,7 +47,7 @@
         background-color: var(--text-color);
 
         &::before {
-          transform: translateX(42px);
+          transform: translateX(calc(1.5vw - 2px));
         }
       }
     }
@@ -26,19 +58,24 @@
   position: absolute;
   inset: 0;
   background-color: var(--text-color);
-  border-radius: 44px;
+  border-radius: 1.5vw;
   cursor: pointer;
   transition: background-color 0.3s ease;
 
   &::before {
     content: "";
     position: absolute;
-    height: 34px;
-    width: 34px;
-    left: 5px;
-    bottom: 5px;
+    height: calc(1.5vw - 4px);
+    width: calc(1.5vw - 4px);
+    left: 2px;
+    bottom: 2px;
     background-color: var(--background-nav);
     border-radius: 50%;
     transition: transform 0.3s ease;
   }
+}
+
+.theme-icon-mobile {
+  height: 4vh;
+  width: 4vh;
 }

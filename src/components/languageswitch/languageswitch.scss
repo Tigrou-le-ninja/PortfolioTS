@@ -1,15 +1,31 @@
 .language-switch {
+  @media (max-width: 320px) {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
   button {
     background-color: var(--background-nav);
     color: var(--text-color);
     border: 1px solid var(--text-color);
-    width: 40px;
-    height: 20px;
+    width: clamp(30px, 2vw, 60px);
+    height: clamp(15px, 1vw, 30px);
+    font-size: 100%;
+
+    @media (max-width: 320px) {
+      width: 8vw;
+      height: 4vh;
+    }
   }
 
   .button-fr {
     border-radius: 5px 0 0 5px;
     transition: all 1s ease;
+
+    @media (max-width: 320px) {
+      border-radius: 5px 5px 0 0;
+    }
 
     &.active {
       background-color: var(--text-color);
@@ -20,6 +36,10 @@
   .button-en {
     border-radius: 0 5px 5px 0;
     transition: all 1s ease;
+
+    @media (max-width: 320px) {
+      border-radius: 0 0 5px 5px;
+    }
 
     &.active {
       background-color: var(--text-color);
