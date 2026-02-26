@@ -2,7 +2,7 @@
   {
     "id": 1,
     "title": "Booki",
-    "pictures": ["/assets/booki/1.WEBP", "/assets/booki/2.WEBP", "/assets/booki/3.WEBP"],
+    "pictures": ["/assets/booki/1.webp", "/assets/booki/2.WEBP", "/assets/booki/3.WEBP"],
     "repo": "https://github.com/Tigrou-le-ninja/BookiTS",
     "site": "https://tigrou-le-ninja.github.io/BookiTS/"
   },
